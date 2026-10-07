@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Git: Local & Remote Repository</h1>
+
+        <div class="cards">
+
+            <div class="card local">
+                <h2>💻 Local Repository</h2>
+                <p>
+                    Local Repository არის Git-ის პროექტის ასლი,
+                    რომელიც შენს კომპიუტერში ინახება.
+                </p>
+                <p>
+                    აქ აკეთებ ცვლილებებს და ქმნი commit-ებს.
+                </p>
+            </div>
+
+            <div class="arrow">
+                ⬆
+                <span>git push</span>
+            </div>
+
+            <div class="card remote">
+                <h2>☁️ Remote Repository</h2>
+                <p>
+                    Remote Repository არის პროექტის ვერსია,
+                    რომელიც სერვერზე, მაგალითად GitHub-ზე, ინახება.
+                </p>
+                <p>
+                    მისი საშუალებით შეგიძლია პროექტი სხვებს გაუზიარო.
+                </p>
+            </div>
+
+        </div>
+
+        <section class="info">
+            <h2>რას აკეთებს git push?</h2>
+
+            <p>
+                <code>git push</code> აგზავნის Local Repository-ში
+                გაკეთებულ commit-ებს Remote Repository-ში.
+            </p>
+
+            <div class="code-box">
+                <code>git push origin main</code>
+            </div>
+        </section>
+
+        <section class="info origin">
+            <h2>რას ნიშნავს origin?</h2>
+
+            <p>
+                <strong>origin</strong> არის Remote Repository-ის
+                სტანდარტული სახელი Git-ში.
+            </p>
+
+            <p>
+                მაგალითად:
+            </p>
+
+            <div class="code-box">
+                <code>git push origin main</code>
+            </div>
+
+            <p>
+                ეს ნიშნავს: „გააგზავნე <strong>main</strong> branch-ის
+                ცვლილებები <strong>origin</strong>-ში.“
+            </p>
+        </section>
+
+    </div>
+</body>
+</html>
